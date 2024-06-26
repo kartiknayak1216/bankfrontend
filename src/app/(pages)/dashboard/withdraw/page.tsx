@@ -75,6 +75,8 @@ export default function Page() {
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
+                placeholder='Your gmail is your password'
+
                 disabled={loading}
                 required
               />
